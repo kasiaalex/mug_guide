@@ -12,10 +12,9 @@ import { normalizeRowKeys, parseCoord } from "@/utils/normalisations";
 // 🔹 Własna ikona pinezki dla kawiarni
 const cafeIcon = new L.Icon({
   iconUrl: "/icons/coffee-pin.png",
-  iconRetinaUrl: "/icons/coffee-pin.png",
-  iconSize: [35, 45],
-  iconAnchor: [17, 45],
-  popupAnchor: [0, -40],
+  iconSize: [55, 36],
+  iconAnchor: [28, 36],
+  popupAnchor: [0, -32],
 });
 
 // City centers (fallback when no cafes or for map center)
